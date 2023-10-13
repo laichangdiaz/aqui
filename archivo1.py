@@ -44,9 +44,19 @@ def status(promedio):
 def final(vector_nombre,matriz,promedio,estatus):
         archivo_nuevo = open("resultado.txt", "w")
         fila = len(matriz)
+        cantM = cantF = 0
+        genero ="masculino"
         archivo_nuevo.write("Resumen de estudiantes" +"\n")
         archivo_nuevo.write("Nombre      g     n1      n2      n3      prom    estatus" + "\n")
         for f in range(fila):
             archivo_nuevo.write(f"{vector_nombre[f][0]:10}  {vector_nombre[f][1]}  {matriz[f][0]:6.2f}  {matriz[f][1]:6.2f}  {matriz[f][2]:6.2f}  {promedio[f]:6.2f}    {estatus[f]:10}" + "\n")
-
+            if promedio[f]<9.5:
+                if vector_nombre[f][1]=="m" or vector_nombre[f][1] =="M":
+                    cantM +=1
+                else:
+                    cantF +=1
+        if cantM<cantF:
+            genero = "femenino"
+        
+        archivo_nuevo.write(f"el genero que reprobo mas es {genero}")
 

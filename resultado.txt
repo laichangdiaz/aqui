@@ -6,3 +6,4 @@ Kike        M   20.00   19.00   12.00   17.00    APROBADO
 Carmen      F   13.00   14.00   15.00   14.00    APROBADO  
 Pedro       m    7.00    8.00    2.00    5.67    REPROBADO 
 Paco        M    3.00    5.00    8.00    5.33    REPROBADO 
+el genero que reprobo mas es masculino
