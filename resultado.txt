@@ -1,0 +1,8 @@
+Resumen de estudiantes
+Nombre      g     n1      n2      n3      prom    estatus
+Henry       M   13.00   12.00   15.00   13.33    APROBADO  
+Alexa       F   20.00   20.00   19.00   19.67    APROBADO  
+Kike        M   20.00   19.00   12.00   17.00    APROBADO  
+Carmen      F   13.00   14.00   15.00   14.00    APROBADO  
+Pedro       m    7.00    8.00    2.00    5.67    REPROBADO 
+Paco        M    3.00    5.00    8.00    5.33    REPROBADO 

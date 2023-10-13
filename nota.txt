@@ -1,1 +1,6 @@
-3,2,3
+Henry,M,13,12,15
+Alexa,F,20,20,19
+Kike,M,20,19,12
+Carmen,F,13,14,15
+Pedro,m,7,8,2
+Paco,M,3,5,8

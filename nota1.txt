@@ -1,0 +1,7 @@
+Lorenzo,M,11,12,11
+Alex,f,20,12,14
+Ken,M,11,19,12
+Lai,F,20,19,18
+jesus,m,20,18,12
+Lisa,f,3,2,5
+Lorena,f,3,2,1
